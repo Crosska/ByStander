@@ -8,7 +8,6 @@
     tools:context=".ChaptersActivity">
 
     <TextView
-        android:textAlignment="center"
         android:id="@+id/chapters_header_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +15,7 @@
         android:paddingHorizontal="15dp"
         android:paddingTop="5dp"
         android:text="@string/app_list_accessible_events"
+        android:textAlignment="center"
         android:textColor="@color/grey"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,10 +23,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_marginVertical="5dp"
         android:id="@+id/list_events_scrollview"
         android:layout_width="match_parent"
         android:layout_height="310dp"
+        android:layout_marginVertical="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chapters_header_textview">
@@ -284,8 +284,8 @@
                 android:id="@+id/terminal_scrollview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginHorizontal="10dp">
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp">
 
                 <TextView
                     android:id="@+id/terminal_textview"

@@ -169,14 +169,16 @@ public class MenuActivity extends AppCompatActivity {
         button_config.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MenuActivity.this, ConfigActivity.class);
+                startActivity(intent);
             }
         });
 
         button_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MenuActivity.this, InfoActivity.class);
+                startActivity(intent);
             }
         });
     }

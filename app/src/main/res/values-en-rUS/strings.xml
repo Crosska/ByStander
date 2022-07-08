@@ -20,4 +20,6 @@
     <string name="stage1_description">Try to make sense of the whole situation</string>
     <string name="stage2_description">Connect and move further along the path</string>
     <string name="stage3_description">Work together to achieve a common goal</string>
+    <string name="info_activity_back_button">app>back_to_menu</string>
+    <string name="info_activity_mail_question">Select an email client:</string>
 </resources>

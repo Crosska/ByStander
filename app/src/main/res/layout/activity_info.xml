@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_main"
+    tools:context=".InfoActivity">
+
+    <RelativeLayout
+        android:id="@+id/info_activity_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/info_activity_logo_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            app:cardBackgroundColor="@color/dark_light"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/info_activity_dev_icon" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/info_activity_devname_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            android:layout_marginBottom="25dp"
+            app:cardBackgroundColor="@color/dark_light"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginVertical="15dp"
+                android:fontFamily="@font/monof55"
+                android:text="Crosska"
+                android:textColor="@color/white"
+                android:textSize="45sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/info_activity_back_cardview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_activity_relative_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/info_activity_github_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dark_light"
+                app:cardCornerRadius="100dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="100dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/info_activity_github_icon" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/monof55"
+                        android:text="GitHub link"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/info_activity_email_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dark_light"
+                app:cardCornerRadius="100dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="100dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:padding="2dp"
+                            android:src="@drawable/info_activity_gmail_icon" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/monof55"
+                        android:text="Email link"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/info_activity_back_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@color/dark_light"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/monof55"
+            android:text="@string/info_activity_back_button"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

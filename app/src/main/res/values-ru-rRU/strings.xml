@@ -20,4 +20,6 @@
     <string name="stage1_description">Попытайтесь разобраться во всей ситуации</string>
     <string name="stage2_description">Установите связь и продвиньтесь дальше</string>
     <string name="stage3_description">Действуйте сообща для достижения общей цели</string>
+    <string name="info_activity_back_button">сист>возврат_в_меню</string>
+    <string name="info_activity_mail_question">Выберите email клиент:</string>
 </resources>
