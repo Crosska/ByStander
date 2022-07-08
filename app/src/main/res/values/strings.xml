@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">ByStander</string>
+    <string name="menu_activity_start_textview">app>select_event</string>
+    <string name="menu_activity_config_textview">app>open_config</string>
+    <string name="menu_activity_info_textview">app>show_dev_info</string>
+    <string name="app_list_accessible_events">app>list_accessible_events</string>
+    <string name="stage3_mutual_aid">stage3_mutual_aid</string>
+    <string name="stage2_first_contact">stage2_first_contact</string>
+    <string name="stage1_booting_up">stage1_booting_up</string>
+    <string name="terminal_first_message">app>list of commands is available with the \\\'help\\\' command\\napp>waiting for input</string>
+    <string name="user">user></string>
+    <string name="type_command">type_command</string>
+    <string name="switch_terminal_help">help</string>
+    <string name="switch_terminal_clear">clear</string>
+    <string name="switch_terminal_run">run</string>
+    <string name="help_command">\n\napp>commands:\nrun \'name_event\' - deploy action on chosen event\nclear \'name_event\' - clear saves on chosen event\napp>waiting for commands</string>
+    <string name="user_prefix">"\n\nuser>"</string>
+    <string name="app_mes_wrong_command">\n\napp>unable to recognise command\napp>waiting for input</string>
+    <string name="chapters_terminal_name">Base terminal</string>
+    <string name="stage1_description">Try to make sense of the whole situation</string>
+    <string name="stage2_description">Connect and move further along the path</string>
+    <string name="stage3_description">Work together to achieve a common goal</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_activity_start_textview">сист>запуск_событий</string>
+    <string name="menu_activity_config_textview">сист>выбор_настроек</string>
+    <string name="menu_activity_info_textview">сист>данные_автора</string>
+    <string name="app_list_accessible_events">сист>список_доступных_событий</string>
+    <string name="stage3_mutual_aid">этап3_взаимопомощь</string>
+    <string name="stage2_first_contact">этап2_первый_контакт</string>
+    <string name="stage1_booting_up">этап1_загрузка_систем</string>
+    <string name="terminal_first_message">сист>список всех команд доступен по команде \'помощь\' \nсист>ожидание ввода команд</string>
+    <string name="user">польз></string>
+    <string name="type_command">ввод_команд</string>
+    <string name="switch_terminal_help">помощь</string>
+    <string name="switch_terminal_clear">очистить</string>
+    <string name="switch_terminal_run">запуск</string>
+    <string name="help_command">\n\nсист>команды:\nзапуск \'название_события\' - загрузка выбранного события\nочистить \'название_события\' - очистить сохранения выбранного события\nсист>ожидание ввода команд</string>
+    <string name="user_prefix">"\n\nпольз>"</string>
+    <string name="app_mes_wrong_command">\n\nсист>невозможно распознать команду\nсист>ожидание ввода команд</string>
+    <string name="chapters_terminal_name">Терминал базы</string>
+    <string name="stage1_description">Попытайтесь разобраться во всей ситуации</string>
+    <string name="stage2_description">Установите связь и продвиньтесь дальше</string>
+    <string name="stage3_description">Действуйте сообща для достижения общей цели</string>
+</resources>

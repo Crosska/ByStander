@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_main">#1F2023</color>
+    <color name="dark_medium">#27292D</color>
+    <color name="dark_light">#2D2F34</color>
+    <color name="dark_text">#D3D3D3</color>
+    <color name="blood_text">#950000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="purple_700">#1F2023</color>
+    <color name="purple_200">#27292D</color>
+    <color name="teal_200">#2D2F34</color>
+</resources>
